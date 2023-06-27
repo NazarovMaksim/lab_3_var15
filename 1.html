@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script src="https://d3js.org/d3.v7.js"></script>
+    <style>
+        svg{
+            border: thin solid black;
+        }
+        .rowFlex{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin: 10px;
+        }
+        p{
+            padding: 10px;
+        }
+        input{
+            height: 20px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class = "rowFlex">
+        <p>Число кружков:</p>
+        <input type = "number" min = "8" value = "1000" id = "valueN">
+        <input type = "button" value = "Построить" id = "drawButton">
+    </div>
+</body>
+<footer>
+    <script src="Task1/svg.js"></script>
+    <script src="Task1/script.js"></script>
+</footer>
+</html>

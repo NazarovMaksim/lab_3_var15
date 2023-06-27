@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src="http://d3js.org/d3.v7.js"></script>
+  <style>
+    svg{
+      border: thin black solid;
+    }
+    svg path, line {
+      fill: none;
+      stroke: black;
+      width: 1px;
+    }
+    svg text {
+      font: 8px Verdana;
+    }
+    .rowFlex{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin: 10px;
+    }
+    p{
+      padding: 10px;
+    }
+    input{
+      height: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="rowFlex">
+    <div class="rowFlex">
+      <p>a =</p>
+      <input type="number" id = 'valueA'>
+    </div>
+    <div class="rowFlex">
+      <p>b =</p>
+      <input type="number" id = 'valueB'>
+    </div>
+    <input type="button" value="Построить" id = 'drawButton'>
+  </div>
+</body>
+<footer>
+  <script src="Task2/svg.js"></script>
+  <script src="Task2/script.js"></script>
+</footer>
+</html>
